@@ -33,6 +33,7 @@ func OpenAdb() {
 		}
 	}
 	fmt.Println(len(DeviceID), "cihaz baglidir.")
+	fmt.Println(DeviceID, "cihaz baglidir.")
 }
 
 func DevicesFor(i int) (int, string) {
@@ -42,4 +43,3 @@ func DevicesFor(i int) (int, string) {
 		return 0, "nil"
 	}
 }
-

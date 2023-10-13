@@ -50,6 +50,7 @@ func InstaOrientation(text string) {
 	case 1:
 		fmt.Println("LiketoLike Isleminiz Baslatiliyor..")
 		platform.InstaLiketoLike(text)
+		platform.ChromeInstaLiketoLike(text)
 	case 2:
 		fmt.Println("Daha Aktiflesmedi")
 	case 3:
